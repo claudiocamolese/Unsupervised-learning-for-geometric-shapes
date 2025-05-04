@@ -59,6 +59,6 @@ The steps of the Spectral Clustering algorithm using the normalized Laplacian ar
 
 Example results are shown below:
 
-![Spectral Clustering Example](figures/3D_Lsym_40.png)
+![Spectral Clustering Example](figure/3D_Lsym_40.png)
 
 Images and plots generated during experiments are located in the `figures/` directory.
