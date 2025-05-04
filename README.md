@@ -27,7 +27,7 @@ and $\mathbf{W}_{ij} = 0$ otherwise, where $\mathcal{N}_k(\mathbf{x}_i)$ denotes
 The degree matrix $\mathbf{D} \in \mathbb{R}^{n \times n}$ is diagonal, with entries:
 
 $$
-\mathbf{D}_{ii} = \sum_{j=1}^n \mathbf{W}_{ij}
+\mathbf{D}_{ii} = \sum_{j=1}^{n} \mathbf{W}_{ij}
 $$
 
 ### 3. Unnormalized Graph Laplacian $\mathbf{L}$
