@@ -60,7 +60,7 @@ The steps of the Spectral Clustering algorithm using the normalized Laplacian ar
 
 ## 📈 Visualization
 
-Images and plots generated during experiments are located in the `img/` directory.
+Images and plots generated during experiments are located in the `figures/` directory.
 
 To include an image in Markdown:
 
