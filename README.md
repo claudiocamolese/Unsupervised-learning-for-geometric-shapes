@@ -16,9 +16,9 @@ Given a dataset \( \{ \mathbf{x}_1, \dots, \mathbf{x}_n \} \subset \mathbb{R}^d 
 
 The symmetric weight matrix \( \mathbf{W} \in \mathbb{R}^{n \times n} \) is defined as:
 
-\[
+$$
 \mathbf{W}_{ij} = \exp\left( -\frac{\|\mathbf{x}_i - \mathbf{x}_j\|^2}{2\sigma^2} \right) \quad \text{if } \mathbf{x}_j \in \mathcal{N}_k(\mathbf{x}_i)
-\]
+$$
 
 and \( \mathbf{W}_{ij} = 0 \) otherwise, where \( \mathcal{N}_k(\mathbf{x}_i) \) denotes the \( k \)-nearest neighbors of \( \mathbf{x}_i \).
 
@@ -26,21 +26,21 @@ and \( \mathbf{W}_{ij} = 0 \) otherwise, where \( \mathcal{N}_k(\mathbf{x}_i) \)
 
 The degree matrix \( \mathbf{D} \in \mathbb{R}^{n \times n} \) is diagonal, with entries:
 
-\[
+$$
 \mathbf{D}_{ii} = \sum_{j=1}^n \mathbf{W}_{ij}
-\]
+$$
 
 ### 3. Unnormalized Graph Laplacian \( \mathbf{L} \)
 
-\[
+$$
 \mathbf{L} = \mathbf{D} - \mathbf{W}
-\]
+$$
 
 ### 4. Normalized Graph Laplacian \( \mathbf{L}_{\text{sym}} \)
 
-\[
+$$
 \mathbf{L}_{\text{sym}} = \mathbf{D}^{-1/2} \mathbf{L} \mathbf{D}^{-1/2} = \mathbf{I} - \mathbf{D}^{-1/2} \mathbf{W} \mathbf{D}^{-1/2}
-\]
+$$
 
 ---
 
