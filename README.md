@@ -50,7 +50,7 @@ The steps of the Spectral Clustering algorithm using the normalized Laplacian ar
 
 1. Construct the similarity matrix $\mathbf{W}$ using the Gaussian kernel and $k$-nearest neighbors.
 2. Compute the degree matrix $\mathbf{D}$ and the normalized Laplacian $\mathbf{L}_{\text{sym}}$.
-3. Compute the first $k$ eigenvectors$\mathbf{u}_{1}, \dots, \mathbf{u}_k$ of $\mathbf{L}_{\text{sym}}$ corresponding to the smallest eigenvalues.
+3. Compute the first $k$ eigenvectors $\mathbf{u}_{1}, \dots, \mathbf{u}_k$ of $\mathbf{L}_{\text{sym}}$ corresponding to the smallest eigenvalues.
 4. Form the matrix $\mathbf{U} \in \mathbb{R}^{n \times k}$ where the columns are the eigenvectors.
 5. Normalize each row of $\mathbf{U}$ to have unit norm.
 6. Treat each row of $\mathbf{U}$ as a point in $\mathbb{R}^k$ and apply K-Means to cluster the points.
