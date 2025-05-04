@@ -56,9 +56,4 @@ The steps of the Spectral Clustering algorithm using the normalized Laplacian ar
 7. Assign original points to clusters based on their embeddings
 
 ## 📈 Visualization
-
-Example results are shown below:
-
-![Spectral Clustering Example](figure/3D_Lsym_40.png)
-
-Images and plots generated during experiments are located in the `figures/` directory.
+![Image](https://github.com/user-attachments/assets/e2044238-a523-4990-9eff-801517702fad)
