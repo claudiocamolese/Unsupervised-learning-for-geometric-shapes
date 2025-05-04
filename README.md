@@ -65,4 +65,4 @@ Images and plots generated during experiments are located in the `figures/` dire
 To include an image in Markdown:
 
 ```markdown
-![Spectral Clustering Example](img/cluster_example.png)
+![Spectral Clustering Example](figures\3D_.Lsym_40.png)
