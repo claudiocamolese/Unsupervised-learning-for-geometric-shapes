@@ -1,3 +1,5 @@
 Among all the uploaded files included in the zip, main.m is the one that needs to be opened.
+
 Once executed, a menu will prompt you to select the dataset to load and choose between the L or Lsym matrix.
+
 After the selection, the results will be plotted for each k = 10, 20, 40.
