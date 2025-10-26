@@ -4,19 +4,19 @@
 
 This repository implements the **Spectral Clustering** algorithm using the normalized Laplacian approach, based on the eigen decomposition of graph-related matrices derived from a similarity measure between data points.
 
-## 📘 Overview
+## Overview
 
 Spectral Clustering is a technique that performs clustering based on the eigenstructure of a graph constructed from the data. It is particularly effective when the clusters have non-convex shapes or are not linearly separable.
 
 Given a dataset $\{\mathbf{x}_1, \dots, \mathbf{x}_n\} \subset \mathbb{R}^d$, we define a similarity graph $G = (V, E)$, where each node represents a data point and edges encode pairwise similarity.
 
-## 📈 Visualization
+## Visualization
 
 ![Image](https://github.com/user-attachments/assets/e2044238-a523-4990-9eff-801517702fad)
 ![Image](https://github.com/user-attachments/assets/c6ff8555-22b7-4cc8-b632-869893b90f48)
 ![Image](https://github.com/user-attachments/assets/093ca830-3de5-41cd-a8af-4b8988123cd3)
 
-## 🧠 Mathematical Foundations
+## Mathematical Foundations
 
 ### 1. Similarity Matrix $\mathbf{W}$
 
@@ -51,7 +51,7 @@ $$
 \mathbf{L}_{\text{sym}} = \mathbf{D}^{-1/2} \mathbf{L} \mathbf{D}^{-1/2} = \mathbf{I} - \mathbf{D}^{-1/2} \mathbf{W} \mathbf{D}^{-1/2}
 $$
 
-## ⚙️ Algorithm
+## Algorithm
 
 The steps of the Spectral Clustering algorithm using the normalized Laplacian are:
 
