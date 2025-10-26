@@ -2,7 +2,7 @@
 
 # Spectral Clustering
 
-This repository implements the **Spectral Clustering** algorithm using the normalized Laplacian approach, based on the eigendecomposition of graph-related matrices derived from a similarity measure between data points.
+This repository implements the **Spectral Clustering** algorithm using the normalized Laplacian approach, based on the eigen decomposition of graph-related matrices derived from a similarity measure between data points.
 
 ## 📘 Overview
 
